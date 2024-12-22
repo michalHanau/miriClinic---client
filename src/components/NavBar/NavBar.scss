@@ -1,0 +1,43 @@
+.navbar {
+    flex-grow: 1;
+    
+    .app-bar {
+      background-color: transparent;
+      backdrop-filter: blur(8px);
+      transition: 0.3s ease-out;
+      z-index: 1201;
+    }
+  
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px 20px;
+      height: 70px;
+    }
+  
+    .logo {
+      height: 70px;
+      width: auto;
+      object-fit: contain;
+    }
+  
+    .menu-items {
+      display: flex;
+      gap: 20px;
+    }
+  
+    .user-section {
+      display: flex;
+      align-items: center;
+    }
+  
+    .user-greeting {
+      margin-left: 10px;
+    }
+    
+    .mobile-menu-button {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
